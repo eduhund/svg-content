@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"description": "Provide custom content to svg template",
 	"repository": "https://github.com/roman-nebel/svg-content",
+	"homepage": "https://github.com/roman-nebel/svg-content#readme",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest"
@@ -11,7 +12,20 @@
 		"svg",
 		"svgtemplate"
 	],
-	"author": "Roman Nebel",
+	"contributors": [
+		{
+			"name": "Ilia Demin",
+			"url": "https://github.com/lncubus"
+		},
+		{
+			"name": "Roman Nebel",
+			"url": "https://github.com/roman-nebel"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/roman-nebel/svg-content/issues",
+		"email": "nebel@eduhund.com"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"jest": "^29.5.0"
