@@ -36,7 +36,7 @@ function buildSvg(svg, values = {}) {
 					svg = svg.slice(0, prefixIndex) + content + svg.slice(suffixIndex);
 				}
 			}
-			if (value.includes("\n")) {
+			if (typeof value === "string" && value.includes("\n")) {
 				const valueTrim = value.split("\n");
 
 				const openTag = "<";
