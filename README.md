@@ -3,9 +3,10 @@
 This tool provides features helping add custom data to svg-based templates.
 
 # What's new
-> v. 0.1.2
 
-* Delete all unnecessary dependencies
+> v. 0.1.3
+
+- Replace the test library to the development dependencies.
 
 # Install
 
@@ -43,7 +44,7 @@ Any data inside the template can be replaced. You can turn to variable any tag p
 
     <tspan>{{variable}}</tspan>
 
-If you change a tag param, make sure, that you save the quotes around:
+If you change a tag param, make sure, that you save the quotes around
 
     fill="{{color}}"
 
@@ -64,7 +65,7 @@ There are two ways to make multiline content.
 
 ### New line
 
-The parser can find new line symbol \n and make several substrings with the same tag, that contain the variable.
+The parser can find a new line symbol \n and make several substrings with the same tag, that contain the variable.
 
 > Please, don't use multiline content for a tag or tag parameter variables. It can be not working (and mostly will not).
 

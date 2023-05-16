@@ -1,6 +1,6 @@
 {
 	"name": "svg-content",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Provide custom content to svg template",
 	"repository": {
 		"type": "git",
@@ -28,7 +28,7 @@
 		"test": "tests"
 	},
 	"author": "Roman Nebel",
-	"dependencies": {
+	"devDependencies": {
 		"jest": "^29.5.0"
 	}
 }
