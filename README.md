@@ -2,11 +2,18 @@
 
 This tool provides features helping add custom data to svg-based templates.
 
+### Support & Donation
+
+Our team creates fully open-source tools and solutions for developers, designers, and those who teach these subjects. You can help us: share this tool, contribute to it, or donate to us to support future work. 
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7Z9A2PABQU584)
+
 # What's new
 
-> v. 0.1.3
+> v. 0.1.4
 
-- Replace the test library to the development dependencies.
+- Add ESM support
+- Add base types for TypeScript
 
 # Install
 
@@ -19,6 +26,10 @@ Just add the NPM package to your program:
 Import buildSvg function to your module:
 
     const { buildSvg } = require("svg-content")
+
+or
+
+    import { buildSvg } from "svg-content"
 
 Then call the function with two arguments: _svg_, _values_:
 
